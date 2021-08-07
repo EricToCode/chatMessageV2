@@ -1,25 +1,17 @@
 {
-  "name": "chatmessagev2",
+  "name": "current-project",
   "version": "1.0.0",
-  "description": "Simple Chat app built using Node.js and Socket.io following Web Dev Simplified youtube tutorial",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EricToCode/chatMessageV2.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EricToCode/chatMessageV2/issues"
-  },
-  "homepage": "https://github.com/EricToCode/chatMessageV2#readme",
   "dependencies": {
-    "socket.io": "^4.1.3"
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^1.19.0"
   }
 }
